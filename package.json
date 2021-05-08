@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build -- --mode=development --watch"
+  },
+  "dependencies": {
+    "preact": "^10.5.13",
+    "preact-markdown": "^2.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
